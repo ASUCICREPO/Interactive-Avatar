@@ -1,0 +1,46 @@
+{
+  "name": "demos-babylon",
+  "version": "2.0.4",
+  "description": "Demos of the Babylon version of the Amazon Sumerian Hosts JS library",
+  "private": true,
+  "scripts": {
+    "test": "",
+    "start": "webpack serve",
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Amazon Web Services",
+    "url": "https://aws.amazon.com",
+    "organization": true
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@amazon-sumerian-hosts/babylon": "^2.0.6",
+    "@anthropic-ai/bedrock-sdk": "^0.9.7",
+    "@aws-sdk/client-bedrock-runtime": "^3.572.0",
+    "@aws-sdk/client-s3": "^3.583.0",
+    "@aws-sdk/client-transcribe-streaming": "^3.583.0",
+    "@babylonjs/core": "^4.2.1",
+    "@babylonjs/loaders": "^4.2.1",
+    "@babylonjs/materials": "^4.2.1",
+    "aws-sdk": "^2.1617.0",
+    "axios": "^1.6.8",
+    "pako": "^2.1.0",
+    "ws": "^8.17.0"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^10.2.4",
+    "eslint": "^8.13.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-airbnb-typescript": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.29.4",
+    "eslint-plugin-react-hooks": "^4.4.0",
+    "webpack": "^5.71.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
+  }
+}
